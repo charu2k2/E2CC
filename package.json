@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "description": "E2C",
   "main": "server.js",
+  "engines": {
+		"node": "12.14.0",
+		"npm": "6.13.4"
+	},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "start-server": "nodemon server.js"
   },
   "author": "charu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
 }
